@@ -1,0 +1,162 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+        <title>Teaching App</title>
+    </head>
+    <body>
+        
+<div class="header">
+    
+    <img src="img/logo.png" class="logoimg" alt="Tution-name">
+    <h1 class="tu-name"><u>Tution Name</u></h1>
+    
+</div>
+
+
+<marquee style="color: gold; position: fixed;">
+    <p>Demo Username and password</p>
+    <p>user1  &nbsp;  pass123</p>
+    <p>user3  &nbsp;  pass123</p>
+    <p>user5  &nbsp;  pass123</p>
+    <p>user7  &nbsp;  pass123</p>
+    <p>user9  &nbsp;  pass123</p>
+    
+</marquee>
+
+
+<div class="login">
+
+
+    <button id="registrationBtn" class="button-log">Student Login</button>
+
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="log">Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit" class="btn-76">Login</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<div class="about">
+<p class="ab">Toppers</p><hr>
+
+<div class="container">
+    
+    
+    
+    <div class="box left-center">
+        <img src="img/logo.png" class="immg" alt="Rank 1">
+        <h2>Rank 1</h2>
+        <p>-Ls-hack</p>
+        
+    </div>
+
+
+    <!-- Box 1 - Top Left -->
+    <div class="box top-left">
+        <img src="img/logo.png" class="immg" alt="Rank 2">
+        <h2>Rank 2</h2>
+        <p>-Ls-hack</p>
+    </div>
+    
+    <!-- Box 2 - Center Right -->
+    <div class="box center-right">
+        <img src="img/logo.png" class="immg" alt="Rank 3">
+        <h2>Rank 3</h2>
+         <p>-Ls-hack</p>
+        
+    </div>
+
+</div>
+<hr>
+
+<p class="ab">Fee Structure</p>
+
+<table border="2" align="Center">
+    <tr>
+        <th>Class</th>
+        <th>Fee</th>
+    </tr>
+    <tr>
+        <td>1 to 3</td>
+        <td>Rs 200</td>
+    </tr>
+    <tr>
+        <td>4 to 6</td>
+        <td>Rs 300</td>
+    </tr>
+    <tr>
+        <td>7 to 8</td>
+        <td>Rs 400</td>
+    </tr>
+    <tr>
+        <td>9 to 10</td>
+        <td>Rs 500</td>
+    </tr>
+    
+
+</table>
+
+<hr>
+
+
+</div>
+
+<div class="inq">
+
+    
+    <form action="submit_inquiry.php" method="post">
+        <h2>Tuition Inquiry Form</h2>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="student_name">Student's Name (if different):</label>
+        <input type="text" id="student_name" name="student_name">
+
+        <label for="subject">Subject/Subjects of Interest:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit Inquiry</button>
+    </form>
+
+</div>
+
+
+<hr>
+
+
+<footer>
+    <div class="developer-info">
+        <img src="sk.jpeg" alt="Saurabh Kumar">
+        <p>Developed by <strong>Saurabh Kumar</strong></p>
+    </div>
+</footer>
+
+
+
+
+
+
+<script src="script.js"></script>
+    </body>
+</html>
